@@ -127,6 +127,7 @@
             this.btnDevises.Size = new System.Drawing.Size(180, 40);
             this.btnDevises.TabIndex = 8;
             this.btnDevises.Text = "Devises";
+            this.btnDevises.Click += new System.EventHandler(this.btnDevises_Click);
             // 
             // btnComptes
             // 

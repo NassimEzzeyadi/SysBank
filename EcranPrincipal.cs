@@ -101,6 +101,12 @@ namespace Systeme_bancaire
             LoadPage(new ComptesPage());
             ActiverOnglet(btnComptes);
         }
+
+        private void btnDevises_Click(object sender, EventArgs e)
+        {
+            LoadPage(new DevisesPage());
+            ActiverOnglet(btnDevises);
+        }
     }
 
 
